@@ -1,0 +1,459 @@
+[16:27:04] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.4
+[16:27:04] [ForkJoinPool-1-worker-4/WARN]: The mod "takesapillage" contains invalid entries in its mod json:
+- Unsupported root entry "mc-publish" at line 51 column 17
+[16:27:04] [ForkJoinPool-1-worker-1/WARN]: Mod ctov uses the version 3.6.2a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '2a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[16:27:04] [main/WARN]: Warnings were found!
+ - Mod 'Backpacked' (backpacked) 3.0.5 recommends version 2.4.18 or later of yigd, which is missing!
+	 - You should install version 2.4.18 or later of yigd for the optimal experience.
+ - Mod 'Forge Config API Port' (forgeconfigapiport) 21.11.1 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+[16:27:04] [main/INFO]: Loading 190 mods:
+	- addonslib 1.21.6-1.6
+	- advancednetherite 2.4.0-1.21.11
+	- almanac 1.5.5
+	- alternate-current 1.9.0
+	- appleskin 3.0.8+mc1.21.11
+	- architectury 19.0.1
+	- attributefix 21.11.1
+	- backpacked 3.0.5
+	- balm 21.11.9
+	   \-- kuma_api 21.11.12
+	- barteringstation 21.11.0
+	- biomesoplenty 21.11.0.31
+	   \-- net_jodah_typetools 0.6.3
+	- carryon 2.9.0
+	- chunky 1.4.55
+	- cloth-config 21.11.153
+	   \-- cloth-basic-math 0.6.1
+	- clumps 29.0.0.1
+	- collective 8.22
+	- comforts 14.0.2+1.21.11
+	   |-- cardinal-components-base 7.3.0
+	   |-- cardinal-components-entity 7.3.0
+	   \-- spectrelib 0.20.2+1.21.11
+	        |-- com_electronwill_night-config_core 3.8.3
+	        \-- com_electronwill_night-config_toml 3.8.3
+	- connectivity 1.21.11-7.6
+	- crawl 0.15.0
+	- creativecore 2.14.11
+	   \-- net_neoforged_bus 7.2.0
+	- cristellib 3.1.2
+	   \-- blue_endless_jankson 1.2.3
+	- ctov 3.6.2a
+	- cupboard 1.21.11-3.6
+	- diagonalfences 21.11.1
+	   \-- diagonalblocks 21.11.1
+	- diagonalwalls 21.11.1
+	   \-- diagonalblocks 21.11.1
+	- diagonalwindows 21.11.1
+	   \-- diagonalblocks 21.11.1
+	- doubledoors 7.2
+	- easyanvils 21.11.0
+	- easyshulkerboxes 21.11.0
+	   \-- iteminteractions 21.11.0
+	- elevatorid 1.21.11-1.15.0
+	- elytratrims 4.6.2
+	- eternalnether 21.11.0
+	- explorerscompass 1.21.11-2.5.1-fabric
+	- explorify 1.6.4
+	- fabric-api 0.141.3+1.21.11
+	   |-- fabric-api-base 1.0.5+4ebb5c083e
+	   |-- fabric-api-lookup-api-v1 1.6.114+20dc27073e
+	   |-- fabric-biome-api-v1 17.1.1+4fc5413f3e
+	   |-- fabric-block-api-v1 1.1.10+4ebb5c083e
+	   |-- fabric-block-view-api-v2 1.0.39+4ebb5c083e
+	   |-- fabric-command-api-v2 2.4.7+6b42a6003e
+	   |-- fabric-content-registries-v0 10.2.14+4fc5413f3e
+	   |-- fabric-convention-tags-v1 2.1.55+7f945d5b3e
+	   |-- fabric-convention-tags-v2 2.17.3+8ef948ba3e
+	   |-- fabric-crash-report-info-v1 0.3.23+4ebb5c083e
+	   |-- fabric-data-attachment-api-v1 1.8.47+eed0806f3e
+	   |-- fabric-data-generation-api-v1 23.4.0+69974c4e3e
+	   |-- fabric-dimensions-v1 4.0.28+4fc5413f3e
+	   |-- fabric-entity-events-v1 3.1.1+1d0ab4303e
+	   |-- fabric-events-interaction-v0 4.1.0+3b89ecf63e
+	   |-- fabric-game-rule-api-v1 2.0.3+4fc5413f3e
+	   |-- fabric-item-api-v1 11.5.20+d0c46b9e3e
+	   |-- fabric-item-group-api-v1 4.2.36+4fc5413f3e
+	   |-- fabric-key-binding-api-v1 1.1.7+4fc5413f3e
+	   |-- fabric-lifecycle-events-v1 2.6.15+4ebb5c083e
+	   |-- fabric-loot-api-v2 3.0.73+3f89f5a53e
+	   |-- fabric-loot-api-v3 2.0.20+78c8b4663e
+	   |-- fabric-message-api-v1 6.1.12+4ebb5c083e
+	   |-- fabric-model-loading-api-v1 6.0.15+4fc5413f3e
+	   |-- fabric-networking-api-v1 5.1.5+ae1e07683e
+	   |-- fabric-object-builder-api-v1 21.1.39+4fc5413f3e
+	   |-- fabric-particles-v1 4.2.11+4fc5413f3e
+	   |-- fabric-recipe-api-v1 8.2.3+4ebb5c083e
+	   |-- fabric-registry-sync-v0 6.2.5+1718722b3e
+	   |-- fabric-renderer-api-v1 8.0.3+f4ffd2e53e
+	   |-- fabric-renderer-indigo 5.0.3+f4ffd2e53e
+	   |-- fabric-rendering-fluids-v1 3.1.43+4ebb5c083e
+	   |-- fabric-rendering-v1 16.2.10+0290ad933e
+	   |-- fabric-resource-conditions-api-v1 5.0.35+4fc5413f3e
+	   |-- fabric-resource-loader-v0 3.3.4+4fc5413f3e
+	   |-- fabric-resource-loader-v1 1.0.10+78c8b4663e
+	   |-- fabric-screen-api-v1 3.1.7+4ebb5c083e
+	   |-- fabric-screen-handler-api-v1 1.3.161+4fc5413f3e
+	   |-- fabric-serialization-api-v1 1.0.5+4ebb5c083e
+	   |-- fabric-sound-api-v1 1.0.51+4fc5413f3e
+	   |-- fabric-tag-api-v1 1.2.20+4fc5413f3e
+	   |-- fabric-transfer-api-v1 6.0.25+4fc5413f3e
+	   \-- fabric-transitive-access-wideners-v1 7.1.0+014c8cec3e
+	- fabric-language-kotlin 1.13.11+kotlin.2.3.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.3.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.3.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.3.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.3.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.32.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.11.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.11.0
+	- fabricloader 0.18.4
+	   \-- mixinextras 0.5.0
+	- fallingtree 1.21.11.3
+	- fastitemframes 21.11.1
+	- ferritecore 8.2.0
+	- forgeconfigapiport 21.11.1
+	   |-- com_electronwill_night-config_core 3.8.3
+	   \-- com_electronwill_night-config_toml 3.8.3
+	- framework 0.13.11
+	   |-- com_electronwill_night-config_core 3.8.3
+	   |-- com_electronwill_night-config_toml 3.8.3
+	   |-- org_javassist_javassist 3.30.2-GA
+	   \-- org_reflections_reflections 0.10.2
+	- glitchcore 21.11.0.4
+	   \-- net_jodah_typetools 0.6.3
+	- goblintraders 1.11.4
+	- illagerinvasion 21.11.1
+	   |-- mm 2.3
+	   \-- neoforgedatapackextensions 21.11.3
+	- improved_village_placement 1.1.2
+	- jamlib 2.0.0+1.21.11
+	   \-- blue_endless_jankson 1.2.3
+	- java 21
+	- jei 27.4.0.22
+	- journeymap 1.21.11-6.0.0-beta.68
+	   |-- ar_com_hjg_pngj 2.1.0
+	   |-- commonnetworking 1.0.22-1.21.11
+	   \-- journeymap-api-fabric 2.0.0-1.21.11-SNAPSHOT
+	- justhammers 21.11.1
+	- kleeslabs 21.11.3
+	- krypton 0.2.10
+	   \-- com_velocitypowered_velocity-native 3.4.0-SNAPSHOT
+	- letmedespawn 1.5.6
+	- lithium 0.21.4+mc1.21.11
+	- lithostitched 1.7.2
+	- lootintegrations 1.21.11-4.8
+	- lootr 1.21.11-1.20.34.104
+	- mcwbiomesoplenty 1.21.10-1.5
+	   \-- net_jodah_typetools 0.6.3
+	- mcwbridges 3.1.2
+	- mcwdoors 1.1.5
+	- mcwfences 1.2.1
+	- mcwfurnitures 3.4.2
+	- mcwholidays 1.1.2
+	- mcwlights 1.1.5
+	- mcwpaintings 1.1.0
+	- mcwpaths 1.1.1
+	- mcwroofs 2.3.2
+	- mcwstairs 1.0.2
+	- mcwtrpdoors 1.1.5
+	- mcwwindows 2.4.2
+	- medieval_buildings 1.1.2
+	- medieval_nether 1.0.2
+	- medievalend 1.0.5
+	- melody 1.0.15
+	- minecraft 1.21.11
+	- mr_true_ending 1-v1.1.4d
+	- mutantmonsters 21.11.2
+	- naturescompass 1.21.11-2.5.0-fabric
+	- netherportalfix 21.11.3
+	- nochatreports 1.21.11-v2.18.0
+	- pingwheel 1.12.1
+	- placeholder-api 2.8.2+1.21.10
+	- prickle 21.11.1
+	- puzzleslib 21.11.12
+	- resourcefullib 3.11.0
+	   |-- com_teamresourceful_bytecodecs 1.1.3
+	   \-- com_teamresourceful_yabn 1.0.3
+	- rightclickharvest 4.6.1+1.21.11
+	- sereneseasons 21.11.0.4
+	   \-- net_jodah_typetools 0.6.3
+	- servercore 1.5.15+1.21.11
+	   |-- org_yaml_snakeyaml 2.5
+	   |-- space_arim_dazzleconf_dazzleconf-core 1.3.0-M2
+	   \-- space_arim_dazzleconf_dazzleconf-ext-snakeyaml 1.3.0-M2
+	- skinrestorer 2.7.0+1.21.11-fabric
+	   \-- org_mineskin_java-client 3.2.1-SNAPSHOT
+	- spark 1.10.170
+	   \-- fabric-permissions-api-v0 0.6.1
+	- sparsestructures 3.1.1
+	- stackrefill 5.0
+	- t_and_t 1.13.9
+	- takesapillage 1.0.10
+	- terrablender 21.11.0.0
+	- throwable_spear 1.0.0
+	- toms_storage 2.8.0
+	- tradingpost 21.11.0
+	- universalbonemeal 21.11.0
+	- visualworkbench 21.11.1
+	- waddles 0.12.2
+	- waystones 21.11.9
+	- yeetusexperimentus 87.0.0
+	- yet_another_config_lib_v3 3.8.2+1.21.11-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+[16:27:05] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Server/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[16:27:05] [main/INFO]: Compatibility level set to JAVA_21
+[16:27:05] [main/WARN]: Reference map 'attributefix.refmap.json' for attributefix.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'attributefix.refmap.json' for attributefix.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'backpacked.refmap.json' for backpacked.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'backpacked.refmap.json' for backpacked.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'balm.refmap.json' for balm.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'balm.refmap.json' for balm.api.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'balm.refmap.json' for balm.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'biomesoplenty.refmap.json' for biomesoplenty.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'carryon.refmap.json' for carryon.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'clumps.refmap.json' for clumps.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'comforts.refmap.json' for comforts.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'creativecore.mixins.refmap.json' for creativecore.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'creativecore.mixins.refmap.json' for creativecore.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'framework.refmap.json' for framework.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'framework.refmap.json' for framework.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'glitchcore.refmap.json' for glitchcore.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'goblintraders.refmap.json' for goblintraders.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'goblintraders.refmap.json' for goblintraders.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'kleeslabs.refmap.json' for kleeslabs.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'kleeslabs.refmap.json' for kleeslabs.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'kuma_api.refmap.json' for kuma_api.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/INFO]: Loaded configuration file for Lithium: 171 options available, 0 override(s) found.
+[16:27:05] [main/WARN]: Reference map 'mixins.medieval_buildings.refmap.fabric.json' for mixins.medieval_buildings.fabric.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'mixins.medieval_nether.refmap.fabric.json' for mixins.medieval_nether.fabric.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'netherportalfix.refmap.json' for netherportalfix.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'netherportalfix.refmap.json' for netherportalfix.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'nochatreports.refmap.json' for mixins/common/nochatreports.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'Ping-Wheel-refmap.json' for pingwheel.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'sereneseasons.refmap.json' for sereneseasons.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'sereneseasons.refmap.json' for sereneseasons.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'sparsestructures.refmap.json' for sparsestructures.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'sparsestructures.refmap.json' for sparsestructures.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'TerraBlender-fabric-refmap.json' for terrablender.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'throwable_spear.refmap.json' for throwable_spear.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'throwable_spear-fabric.refmap.json' for throwable_spear-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'waystones.refmap.json' for waystones.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'waystones.refmap.json' for waystones.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:05] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:27:06] [main/WARN]: Error loading class: net/minecraft/class_757 (java.lang.ClassNotFoundException: net/minecraft/class_757)
+[16:27:06] [main/WARN]: @Mixin target net.minecraft.class_757 was not found creativecore.fabric.mixins.json:GameRendererMixin from mod creativecore
+[16:27:06] [main/WARN]: Error loading class: net/minecraft/class_938 (java.lang.ClassNotFoundException: net/minecraft/class_938)
+[16:27:06] [main/WARN]: @Mixin target net.minecraft.class_938 was not found journeymap.mixins.json:client.SalmonRendererAccessor from mod journeymap
+[16:27:06] [main/WARN]: Error loading class: net/minecraft/class_12074 (java.lang.ClassNotFoundException: net/minecraft/class_12074)
+[16:27:06] [main/WARN]: @Mixin target net.minecraft.class_12074 was not found resourcefullib.mixins.json:BlockOutlineRenderStateMixin from mod resourcefullib
+[16:27:07] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[16:27:14] [main/INFO]: AddonsLib Fabric !
+[16:27:14] [main/INFO]: Initializing platform helper for Advanced Netherite!
+[16:27:14] [main/INFO]: Almanac Fabric config reloaded, cache cleared
+[16:27:14] [main/INFO]: Almanac Fabric config initialized
+[16:27:14] [main/INFO]: Almanac initialized
+[16:27:14] [main/INFO]: Reflections took 130 ms to scan 3 urls, producing 9 keys and 141 values
+[16:27:14] [main/INFO]: Registered synced data key backpacked:selected_backpack for minecraft:player
+[16:27:14] [main/INFO]: Registered synced data key backpacked:backpack for minecraft:player
+[16:27:14] [main/INFO]: Registered synced data key backpacked:backpacks for minecraft:player
+[16:27:14] [main/INFO]: Registered synced data key backpacked:cosmetic_backpack for minecraft:player
+[16:27:14] [main/INFO]: Registered synced data key backpacked:unlock_tracker for minecraft:player
+[16:27:14] [main/INFO]: Registered synced data key backpacked:unlockable_backpack_slots for minecraft:player
+[16:27:14] [main/INFO]: Registered synced data key backpacked:trader_pickpocketing for minecraft:wandering_trader
+[16:27:14] [main/INFO]: Registered synced data key backpacked:immortal_cooldown for minecraft:player
+[16:27:14] [main/INFO]: Registered synced data key backpacked:backpack_scale for minecraft:player
+[16:27:15] [main/INFO]: Constructing components for barteringstation:common
+[16:27:15] [main/INFO]: Loading Collective version 8.22.
+[16:27:15] [main/INFO]: Connectivity initialized
+[16:27:15] [main/INFO]: Loaded config for: cupboard.json
+[16:27:15] [main/INFO]: Constructing components for diagonalblocks:common
+[16:27:15] [main/INFO]: Constructing components for diagonalfences:common
+[16:27:15] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 21ms
+[16:27:15] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 52ms
+[16:27:16] [main/INFO]: Constructing components for diagonalwalls:common
+[16:27:16] [main/INFO]: Constructing shapes for DiagonalWallBlock[NodeWidth=4.0,ExtensionWidth=3.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 41ms
+[16:27:16] [main/INFO]: Constructing shapes for DiagonalWallBlock[NodeWidth=4.0,ExtensionWidth=3.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=14.0] took 117ms
+[16:27:16] [main/INFO]: Constructing shapes for DiagonalWallBlock[NodeWidth=0.0,ExtensionWidth=3.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 37ms
+[16:27:16] [main/INFO]: Constructing shapes for DiagonalWallBlock[NodeWidth=0.0,ExtensionWidth=3.0,NodeTop=0.0,ExtensionBottom=0.0,ExtensionTop=14.0] took 74ms
+[16:27:17] [main/INFO]: Constructing components for diagonalwindows:common
+[16:27:17] [main/INFO]: Constructing shapes for DiagonalStainedGlassPaneBlock[NodeWidth=1.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 13ms
+[16:27:17] [main/INFO]: Constructing components for easyanvils:common
+[16:27:17] [main/INFO]: Constructing components for easyshulkerboxes:common
+[16:27:17] [main/INFO]: Constructing components for eternalnether:common
+[16:27:18] [main/INFO]: Constructing components for fastitemframes:common
+[16:27:18] [main/INFO]: Registered synced config with path sereneseasons/fertility.toml
+[16:27:18] [main/INFO]: Registered synced config with path sereneseasons/seasons.toml
+[16:27:19] [main/INFO]: Constructing components for illagerinvasion:common
+[16:27:19] [main/INFO]: Constructing components for iteminteractions:common
+[16:27:19] [main/INFO]: Initializing JamLib on Fabric
+[16:27:19] [main/INFO]: Initializing ServerSide Packet Registries
+[16:27:19] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.x.x (Linux x86_64)
+[16:27:19] [main/INFO]: Macaw's Biomes O' Plenty Loading...
+[16:27:21] [main/INFO]: Macaw's Biomes O' Plenty Is Charged !
+[16:27:24] [main/WARN]: [MELODY] Disabling Melody since it's loaded server-side.
+[16:27:24] [main/INFO]: Definitely not up to no good
+[16:27:24] [main/INFO]: Constructing components for mutantmonsters:common
+[16:27:24] [main/INFO]: Dispatching loading event for config mutantmonsters-common.toml
+[16:27:25] [main/INFO]: [Ping-Wheel] Init
+[16:27:25] [main/INFO]: [Ping-Wheel] Loaded ServerConfig(defaultChannelMode=auto, playerTrackingEnabled=true, msToRegenerate=1000, rateLimit=5)
+[16:27:25] [main/INFO]: Constructing components for puzzleslib:common
+[16:27:25] [main/INFO]: Updated config file at /workspaces/Server/servidor_minecraft/./config/rightclickharvest.json5
+[16:27:25] [main/INFO]: Initializing Right Click Harvest on FABRIC
+[16:27:25] [main/INFO]: [ServerCore] Loaded V1.5.15+1.21.11!
+[16:27:25] [main/INFO]: Deserializing ItTakesPillageConfig from 'config/takesapillage.json'
+[16:27:25] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[16:27:25] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[16:27:25] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[16:27:25] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[16:27:25] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[16:27:25] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[16:27:25] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[16:27:25] [main/INFO]: Initializing Throwable Spear mod...
+[16:27:25] [main/INFO]: [STDOUT]: [Throwable Spear] Loaded Spear config from file
+[16:27:25] [main/INFO]: Registering C2S receiver with id throwable_spear:throw_spear
+[16:27:25] [main/INFO]: Throwable Spear mod initialized!
+[16:27:25] [main/INFO]: Tom's Storage Setup starting
+[16:27:25] [main/INFO]: Constructing components for tradingpost:common
+[16:27:25] [main/INFO]: Constructing components for universalbonemeal:common
+[16:27:25] [main/INFO]: Constructing components for visualworkbench:common
+[16:27:25] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[16:27:26] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[16:27:26] [main/INFO]: Generating SERVER_DATA
+[16:27:26] [main/INFO]: Collected 0 data resources in 3.351054ms
+[16:27:27] [Worker-Main-3/ERROR]: Couldn't parse data file 'medieval_nether:chests_castle_two' from 'medieval_nether:loot_table/chests_castle_two.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain': net.minecraft.class_52@9f046c4]
+[16:27:27] [Worker-Main-3/ERROR]: Couldn't parse data file 'medieval_nether:chests_house_two' from 'medieval_nether:loot_table/chests_house_two.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain': net.minecraft.class_52@68c472a2]
+[16:27:28] [Worker-Main-2/INFO]: Adding backpack 'backpacked:bamboo_basket'
+[16:27:28] [Worker-Main-2/INFO]: Adding backpack 'backpacked:cardboard_box'
+[16:27:28] [Worker-Main-2/INFO]: Adding backpack 'backpacked:classic'
+[16:27:28] [Worker-Main-2/INFO]: Adding backpack 'backpacked:end_crystal'
+[16:27:28] [Worker-Main-2/INFO]: Adding backpack 'backpacked:honey_jar'
+[16:27:28] [Worker-Main-2/INFO]: Adding backpack 'backpacked:mini_chest'
+[16:27:28] [Worker-Main-2/INFO]: Adding backpack 'backpacked:piglin_pack'
+[16:27:28] [Worker-Main-2/INFO]: Adding backpack 'backpacked:rocket'
+[16:27:28] [Worker-Main-2/INFO]: Adding backpack 'backpacked:sheep_plush'
+[16:27:28] [Worker-Main-2/INFO]: Adding backpack 'backpacked:standard'
+[16:27:28] [Worker-Main-2/INFO]: Adding backpack 'backpacked:trash_can'
+[16:27:28] [Worker-Main-2/INFO]: Adding backpack 'backpacked:turtle_shell'
+[16:27:28] [Worker-Main-2/INFO]: Adding backpack 'backpacked:vintage'
+[16:27:28] [Worker-Main-2/INFO]: Adding backpack 'backpacked:wandering_bag'
+[16:27:28] [Worker-Main-2/WARN]: Found data map file for non-existent data map type 'neoforge:compostables' on registry 'minecraft:item'.
+[16:27:28] [Worker-Main-2/WARN]: Found data map file for non-existent data map type 'neoforge:furnace_fuels' on registry 'minecraft:item'.
+[16:27:29] [Worker-Main-2/WARN]: Found data map file for non-existent data map type 'neoforge:acceptable_villager_distances' on registry 'minecraft:entity_type'.
+[16:27:29] [main/INFO]: Loaded 7880 recipes
+[16:27:29] [main/INFO]: Loaded 4926 advancements
+[16:27:29] [main/INFO]: Loaded config for: lootintegrations.json
+[16:27:30] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[16:27:30] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[16:27:30] [main/INFO]: Applied 610 biome modifications to 134 of 134 new biomes in 22.35 ms
+[16:27:30] [Server thread/INFO]: Dispatching loading event for config barteringstation-server.toml
+[16:27:30] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
+[16:27:30] [Server thread/INFO]: Dispatching loading event for config fastitemframes-server.toml
+[16:27:30] [Server thread/INFO]: Dispatching loading event for config illagerinvasion-server.toml
+[16:27:30] [Server thread/INFO]: Dispatching loading event for config iteminteractions-server.toml
+[16:27:30] [Server thread/INFO]: Dispatching loading event for config mutantmonsters-server.toml
+[16:27:30] [Server thread/INFO]: Dispatching loading event for config tradingpost-server.toml
+[16:27:30] [Server thread/INFO]: Dispatching loading event for config universalbonemeal-server.toml
+[16:27:30] [Server thread/INFO]: Dispatching loading event for config visualworkbench-server.toml
+[16:27:30] [Server thread/INFO]: Loading server configs...
+[16:27:30] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[16:27:30] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@646533cc for service interface journeymap.api.services.ClientPlatformService
+[16:27:30] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@373095ea for service interface journeymap.api.services.CommonPlatformService
+[16:27:30] [Server thread/INFO]: Starting background profiler...
+[16:27:31] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[16:27:31] [Server thread/INFO]: Loading properties
+[16:27:31] [Server thread/INFO]: Default game type: SURVIVAL
+[16:27:31] [Server thread/INFO]: Generating keypair
+[16:27:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:27:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:27:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:27:31] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:27:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:27:31] [Server thread/INFO]: Preparing level "world"
+[16:27:32] [Server thread/INFO]: Loading 0 persistent chunks...
+[16:27:32] [Server thread/INFO]: Preparing spawn area: 100%
+[16:27:32] [Server thread/INFO]: Time elapsed: 14 ms
+[16:27:32] [Server thread/INFO]: Done (0.582s)! For help, type "help"
+[16:27:32] [Server thread/INFO]: Loaded config for: connectivity.json
+[16:27:32] [Server thread/INFO]: Initialized AttributeFix. Took 97.60ms.
+[16:27:53] [Server thread/INFO]: Ruzten[/100.96.193.47:57781] logged in with entity id 53 at (1089.9422211246256, 77.0, -3714.4777573992346)
+[16:27:53] [Server thread/INFO]: Ruzten joined the game
+[16:27:54] [Server thread/INFO]: Channel update: Ruzten -> default
+[16:30:03] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[16:30:03] [Server thread/INFO]: unop Ruzten<--[HERE]
+[16:30:12] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[16:30:12] [Server thread/INFO]: unop ruzten<--[HERE]
+[16:30:24] [Server thread/INFO]: Made Ruzten no longer a server operator
+[16:30:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2915ms or 58 ticks behind
+[16:31:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2142ms or 42 ticks behind
+[16:31:40] [Server thread/INFO]: damvers[/100.118.72.119:55165] logged in with entity id 1842 at (363.83921538922885, 67.0, -238.40659531651326)
+[16:31:40] [Server thread/INFO]: damvers joined the game
+[16:31:41] [Server thread/INFO]: Channel update: damvers -> default
+[16:33:23] [Server thread/INFO]: damvers was slain by Enderman
+[16:33:27] [Server thread/INFO]: <Ruzten> xdxdxdxdx
+[16:33:51] [Server thread/INFO]: <damvers> voy a dropear el server
+[16:38:13] [Server thread/INFO]: <Ruzten> hoy es dia de esclavizar aldeanoss
+[16:38:25] [Server thread/INFO]: damvers burned to death
+[16:38:45] [Server thread/INFO]: <Ruzten> tas bien?
+[16:38:59] [Server thread/INFO]: <damvers> no, voy a perder mis cosas
+[16:39:10] [Server thread/INFO]: Made damvers a server operator
+[16:39:16] [Server thread/INFO]: <Ruzten> ve por ellas
+[16:39:20] [Server thread/INFO]: <Ruzten> te di op un ratico
+[16:39:24] [Server thread/INFO]: <Ruzten> para que no las pierdas
+[16:39:27] [Server thread/INFO]: <damvers> que es eso?
+[16:39:29] [Server thread/INFO]: <Ruzten> avisame para quitartelo
+[16:39:34] [Server thread/INFO]: <Ruzten> puedes ponerte en creativo
+[16:39:37] [Server thread/INFO]: <Ruzten> y tpearte
+[16:39:47] [Server thread/INFO]: <damvers> gamemode creativo
+[16:39:49] [Server thread/INFO]: <Ruzten> pero no abuses, solo busca las cosas bro
+[16:39:50] [Server thread/INFO]: <Ruzten> xd
+[16:39:54] [Server thread/INFO]: <Ruzten> ./gamemode creative
+[16:40:04] [Server thread/INFO]: <damvers> velda
+[16:40:22] [Server thread/INFO]: [damvers: Set own game mode to Creative Mode]
+[16:44:09] [Server thread/INFO]: <damvers> listo
+[16:44:21] [Server thread/INFO]: [damvers: Set own game mode to Survival Mode]
+[16:44:33] [Server thread/INFO]: <damvers> muchas gracias ruben
+[16:45:22] [Server thread/INFO]: Made damvers no longer a server operator
+[16:45:29] [Server thread/INFO]: <Ruzten> listo
+[16:45:34] [Server thread/INFO]: <Ruzten> ;)
+[16:50:59] [Server thread/INFO]: damvers burned to death
+[17:06:52] [Server thread/INFO]: <Ruzten> zzzz
+[17:07:17] [Server thread/INFO]: <damvers> XD
+[17:13:28] [Server thread/INFO]: <Ruzten> muy chambeador
+[17:13:35] [Server thread/INFO]: <Ruzten> tienes trigo?
+[17:13:35] [Server thread/INFO]: <damvers> como siempre
+[17:13:50] [Server thread/INFO]: <Ruzten> tienes mas?
+[17:13:57] [Server thread/INFO]: <damvers> ahi hay mas
+[17:13:59] [Server thread/INFO]: <Ruzten> es para que los aldeanos se reproduzcan
+[17:18:24] [Server thread/INFO]: <Ruzten> zz
+[17:52:58] [Server thread/INFO]: damvers burned to death
+[17:55:17] [Server thread/INFO]: damvers tried to swim in lava to escape Ghast
+[17:55:46] [Server thread/INFO]: <damvers> bueno mano me voy a la mierda de este servidor
+[17:55:48] [Server thread/INFO]: damvers lost connection: Disconnected
+[17:55:48] [Server thread/INFO]: damvers left the game
+[18:01:29] [Server thread/INFO]: Ruzten lost connection: Disconnected
+[18:01:29] [Server thread/INFO]: Ruzten left the game
